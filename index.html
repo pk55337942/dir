@@ -2,9 +2,16 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>新域名 https://ihtcboy.com</title>
 	</head>
 	<body>
-		<p>跳转中，访问新域名站点<a href="https://ihtcboy.com" target="_blank">https://AAA.com</a></p>
 	</body>
+	<script type="text/javascript">
+        function GetQueryString(name)
+ 	 {
+	     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+	     var r = window.location.search.substr(1).match(reg);//search,查询？后面的参数，并匹配正则
+	     if(r!=null)return  unescape(r[2]); return "";
+	 }
+	 window.location.href="http://dir.3fdir01.com/Share/" + GetQueryString("key");
+    </script>
 </html>
